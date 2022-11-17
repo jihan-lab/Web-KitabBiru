@@ -1,0 +1,14 @@
+@import "/src/assets/scss/style.scss";
+
+.text {
+    font-size: 14px;
+    color: $gray-500;
+    font-family: "300";
+}
+
+.footer {
+    height: 70px;
+    border-top: solid;
+    border-width: 1px;
+    border-color: $gray-300;
+}

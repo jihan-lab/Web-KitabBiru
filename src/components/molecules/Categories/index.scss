@@ -1,0 +1,39 @@
+@import "../../../assets/scss/style.scss";
+
+.bg-categories{
+    background-color: $secondary;
+    height: 193px;
+    width: 163px;
+    padding: 12px;
+    border-radius: 10px;
+    
+
+    .content-categories{
+
+        .img-wrap-categories {
+            margin-top: 20px;
+            height: 86px;
+            width: 86px;
+            border-radius: 100px;
+            background-color: $blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-categories {
+            height: 66px;
+            width: 66px;
+            object-fit: cover;
+            border-radius: 100px;
+            
+        }
+        .text-categories {
+            margin-top: 10px;
+            font-size: 15px;
+            color: $text-primary;
+            font-family: "400";
+            text-decoration: none;
+        }
+    }
+
+}
